@@ -74,6 +74,9 @@ function compararPorTamanho(s1, s2) {
 
 console.log("SORT -----------------------------");
 
+
+// QUANDO ADICIONADO "3 PONTOS" E O COLCHETES NA VARIÁVEL, 
+// SIGNIFICA QUE ESTAMOS CRIANDO UM CLONE, COM ISSO NÃO SERÁ AFETADO O ARRAY PRINCIPAL.
 const s1 = [...nomes].sort();
 console.log(s1);
 
