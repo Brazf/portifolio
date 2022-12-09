@@ -49,4 +49,12 @@ const item = {
 
 const cloneItem = { ...item };
 
+console.log("Clone do Objeto");
+console.log(cloneItem);
+console.log("Original");
+console.log(item);
+
 const cloneItemPlus = { ...item, weigth: 10 };
+
+console.log("Adição ao Objeto");
+console.log(cloneItemPlus);
