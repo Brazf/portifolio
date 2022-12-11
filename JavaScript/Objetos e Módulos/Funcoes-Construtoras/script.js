@@ -31,3 +31,5 @@
  const p2 = new Product("Celular", 2000.00, 3);
  const p3 = new Product("Câmera", 4500.00, 1);
 
+ console.log(p2);
+
