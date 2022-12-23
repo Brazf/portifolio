@@ -63,3 +63,12 @@ console.log("IMPRIMINDO O CONTEÚDO DE ELEMENTOS QUE TEM A CLASS (.card)");
 Array.from(cards).map( ixibir => {
     console.log(ixibir.innerHTML);
 });
+
+// OUTRA PARTE DO APRENDIZADO USANDO O DATA-SET
+console.log("USANDO DATA-SET PARA MODIFICAR OS HTML COM MAIS FACILIDADE UTILIZANDO O JAVASCRIPT");
+
+const cardsAll = document.querySelectorAll('[data-product-id="32"]');
+Array.from(cardsAll).map( conteudo => {
+    console.log(conteudo.innerHTML);
+});
+
