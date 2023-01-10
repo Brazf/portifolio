@@ -7,54 +7,86 @@
     <title>Primeiras Tags</title>
   </head>
   <body>
-    <h1>Lojas Top</h1>
-    <ul>
-      <li><a href="#categories">Categorias</a></li>
-      <li><a href="#title">Títulos</a></li>
-      <li><a href="#about">Sobre nós</a></li>
-    </ul>
-    <h2 id="categories">Categorias</h2>
-    <ul>
-      <li>Fantasia</li>
-      <li>Educação</li>
-    </ul>
-    <h2 id="title">Títulos</h2>
-    <img src="img/book1.jpg" alt="O senhor dos anéis" />
-    <h3>O Senhor dos Anéis</h3>
-    <p>Navegue por essas grande aventura</p>
-    <p>R$ 389.99</p>
+    <header>
+      <nav>
+        <h1>Lojas Top</h1>
+        <ul>
+          <li><a href="#categories">Categorias</a></li>
+          <li><a href="#title">Títulos</a></li>
+          <li><a href="#about">Sobre nós</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <img src="img/book2.jpg" alt="Rails for dummies" />
-    <h3>Rails for dummies</h3>
-    <p>Aprenda essta fantástica ferramenta</p>
-    <p>R$ 250.49</p>
+    <main>
+      <section id="categories">
+        <h2>Categorias</h2>
+        <ul>
+          <li>Fantasia</li>
+          <li>Educação</li>
+        </ul>
+      </section>
 
-    <h2 id="about">Sobre nós</h2>
-    <h3>O que fazemos</h3>
-    <p>Ajudamos pessoas a se tornarem desenvolvedoras profissionais</p>
-    <h3>Saiba mais</h3>
+      <section id="title">
+        <div>
+          <h2>Títulos</h2>
+          <img src="img/book1.jpg" alt="O senhor dos anéis" />
+          <div>
+            <h3>O Senhor dos Anéis</h3>
+            <p>Navegue por essas grande aventura</p>
+            <p><span>R$</span> 389.99</p>
+          </div>
+        </div>
 
-    <iframe
-      width="320"
-      height="180"
-      src="https://www.youtube.com/embed/6PBJUxIiRBI"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
+        <div>
+          <img src="img/book2.jpg" alt="Rails for dummies" />
+          <div>
+            <h3>Rails for dummies</h3>
+            <p>Aprenda essta fantástica ferramenta</p>
+            <p><span>R$</span> 250.49</p>
+          </div>
+        </div>
+      </section>
 
-    <h2>Siga-nos</h2>
-    <a href="https://www.youtube.com/@DevSuperior" target="_blank">YouTube</a>
-    <a href="https://www.instagram.com/devsuperior.ig/" target="_blank"
-      >Instagram</a
-    >
+      <section id="about">
+        <h2>Sobre nós</h2>
+        <h3>O que fazemos</h3>
+        <p>Ajudamos pessoas a se tornarem desenvolvedoras profissionais</p>
+        <h3>Saiba mais</h3>
 
-    <h2>Entre em contato</h2>
-    <address>
-      Escreva para nosso
-      <a href="mailto:contato@devsuperior.com">email</a>. <br />
-      Até a próxima.
-    </address>
+        <iframe
+          width="320"
+          height="180"
+          src="https://www.youtube.com/embed/6PBJUxIiRBI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <div>
+          <h2>Siga-nos</h2>
+          <a href="https://www.youtube.com/@DevSuperior" target="_blank"
+            >YouTube</a
+          >
+          <a href="https://www.instagram.com/devsuperior.ig/" target="_blank"
+            >Instagram</a
+          >
+        </div>
+
+        <div>
+          <h2>Entre em contato</h2>
+          <address>
+            Escreva para nosso
+            <a href="mailto:contato@devsuperior.com">email</a>. <br />
+            Até a próxima.
+          </address>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
