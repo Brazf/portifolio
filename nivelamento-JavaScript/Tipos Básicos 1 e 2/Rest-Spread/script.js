@@ -58,3 +58,17 @@ const cloneItemPlus = { ...item, weigth: 10 };
 
 console.log("Adição ao Objeto");
 console.log(cloneItemPlus);
+
+// TESTE PÓS APRENDIZADO
+
+function arraySoma (...numeros) {
+    var estic = [];
+    for(i = 0; i < numeros.length; i++){
+        estic[i] = numeros[i]; 
+    }
+    return estic;
+};
+
+
+
+
