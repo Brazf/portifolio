@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+}
+
+strong {
+    color: #22D4FD;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+img {
+    width: 300px;
+    height: 370px;
+    margin-left: 30px;
+}
+
+#information {
+    display: flex;
+    flex-wrap: wrap;
+    width: 390px;
+    height: 350px;
+    align-items: center;
+}
+
+#tela-inicial {
+    width: 1550px;
+    display: flex;
+    justify-content: center;
+    margin-left: 175px;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.botoes {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: #22D4FD;
+    border-radius: 10px;
+    width: 180px;
+    height: 35px;
+
+}
